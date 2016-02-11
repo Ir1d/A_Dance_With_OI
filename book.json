@@ -1,0 +1,14 @@
+{
+    "structure": {
+        "readme": "bookIntro.md"
+    },
+    "plugins": [
+    	"katex",
+    	"disqus"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "adwoi"
+        }
+    }
+}
