@@ -1,1 +1,1 @@
-相信你们能够创造更多的伟大！
+Looking forward to your good news.
