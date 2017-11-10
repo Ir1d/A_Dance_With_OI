@@ -1,4 +1,4 @@
-A_Dance_With_OI
+# A_Dance_With_OI [![Build Status](https://img.shields.io/travis/Ir1d/A_Dance_With_OI.svg?style=flat-square)](https://github.com/Ir1d/A_Dance_With_OI)
 
 **English version is deleted at this moment, I might add it back after I finish the Chinese version of this book.**
 
