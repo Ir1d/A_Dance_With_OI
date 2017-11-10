@@ -1,21 +1,19 @@
 language: node_js
 sudo: enabled
 node_js:
-  - "node"
-
+- node
 before_script:
-  - npm install gitbook-cli -g
-  - sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"
-  - gitbook install .
-
+- npm install gitbook-cli -g
+- sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.py |
+  sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read());
+  main()"
+- gitbook install .
 script:
-  - gitbook pdf .
-
+- gitbook pdf .
 deploy:
   provider: releases
-  api_key: "b977f60643fe61c9ea20ae2fa5323232a0db0bd8"
+  api_key:
+    secure: bvM4ks1Agzr5UpKV/H9tfpUuSEdKg10LwdyTgqwyfAG95tBSCGe1h8+CfHjTkq2my4UN31DnMzE0zroSLI7pfGrKttOVrBvC+1qqti+AuyzZvsthgG4Try4RyO8B9/z+qMNBxPWUc5aCm5d1TSD4A/0Y1+0mNj2SRntA58KyNeTjZUPMYfbo/IHO7wytBcrjVsgPEBt7OiNUyk4OcMp8k/kXea82yxJt9aOztK27Bh+71ocU3mSPbdzLEuRdyEL4VXPdvnyEJEvQi00yyplE17q3G50sbx9nO8Yp3ll4YBR9Ubi0HfM3c3FwZ5KhBd22Prt89LiXjVeYjNtKry3GQ41z74MuTUlUGOhhNxHpPhsV1PQcd3lkdXp0EduedKfA8BIOIRP0gUDYR1Q6fNgm5bZQnd+B2OzDZq58g4XQ301VvUC/cqEuiicAbG1fbM11pPtE32m8IWr2dXZgVJqe6SpRwquRz49Vl68UTKYfP0/MysQErK6hf5ihet2uyw1J1BVgFV9ZVW7NvDc6FXkOZUKXYNNHA3BD5bOlLGKhRb4UK2oKYc3/1G4HSsGGM5me/vRae+ULhS8I0pHKn2Ru1HMliyU3eBVj7PK6l2n4O7mqH759ZRhTmASuzIF9aA6QDFVE/BRJnZ55jbUhSXf6D1kGNs5b23pC5/EIjrEQwxQ=
   file: book.pdf
-  skip_cleanup: true
   on:
-    # tags设置为true表示只有在有tag的情况下才部署
-    tags: true
+    repo: Ir1d/A_Dance_With_OI
