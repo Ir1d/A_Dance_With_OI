@@ -18,3 +18,4 @@ deploy:
   skip_cleanup: true
   on:
     repo: Ir1d/A_Dance_With_OI
+    tags: true
