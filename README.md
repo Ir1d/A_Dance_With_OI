@@ -1,3 +1,11 @@
+# Finale (2018.10.9)
+
+不敢去回想 2018 年的春与夏究竟都经历了什么，好消息是后来有一天早上醒来，我把这件事真正推动起来了，虽然是以另外的名字（或许那个名字更好一些？
+
+A_Dance_With_OI 的设想被我放到了 [OI Wiki](https://github.com/24OI/OI-wiki) 里面，这个项目如今得到了很多朋友的鼓励、支持和帮助，已经小有作为，在下不胜感激。
+
+我们都将有光明的未来，希望都可以虔诚像当初。
+
 # A_Dance_With_OI [![Build Status](https://img.shields.io/travis/Ir1d/A_Dance_With_OI.svg?style=flat-square)](https://github.com/Ir1d/A_Dance_With_OI)
 
 **English version is deleted at this moment, I might add it back after I finish the Chinese version of this book.**
